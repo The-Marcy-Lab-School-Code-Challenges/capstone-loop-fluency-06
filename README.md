@@ -30,10 +30,11 @@ const capstone = "capstone fellows"
     
 3. Write a function named `letterCountRefactor` that has the same input and output as `letterCount` except you cannot use a `for` loop or `if` statements. Consider using `for in`, `for of`, and ternary operators. 
 
+
 4. Write a function named `vowelCount` that takes in a string and returns an object where the keys are letters in the given string that are vowels and the value of each vowel key is a count of how many times the character appears in the string.
 
     ```jsx
-    charCount(capstone) // returns {a: 1, o: 2, e: 2}
+    vowelCount(capstone) // returns {a: 1, o: 2, e: 2}
     ```
 
 ### **Test all your solutions for questions 1-3 with the following variable:** 
